@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+/* Adding All My Section Tag Fixed Padding */
+section{
+    padding: 80px;
+}
+/* Ceating Banner Area in CSS */
+.banner{
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:#111;
+    background: url(images/mypic1.jpeg);
+    background-size: cover;
+    background-position: left bottom;
+}
+
+.banner h2{
+    font-size: 2.5em;
+    color: rgb(253, 247, 247);
+    font-weight: 300;
+    line-height: 1.5em;
+}
+.banner h2 span{
+    font-size: 1.2em;
+    color: #efefef;
+}
+.banner h3{
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.btn{
+    position: relative;
+    background: #009e06;
+    color:#000;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* /* Creating about me layout in css   */
+
+.heading{
+    width: 100% ;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #111;
+}
+.heading p{
+    font-style: italic;
+    font-size: 2rem;
+}
+.heading h2{
+    font-size: 3em;
+    color: #009e66;
+}
+
+.content{
+    display: flex;
+    justify-content:space-between;
+}
+.contentBx{
+    padding-left: 40px;
+    text-align: justify;
+}
+
+.proPic{
+    height: 350px;
+    width: 300px;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+.contentBx h2{
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.bt{
+    margin-top: 20px;
+}
+.round{
+    border-radius: 50px;
+    -webkit-webkit: border radius 50px;
+    -moz-webkit: border radius 50px;
+    -ms-webkit: border radius 50px;
+    -o-webkit: border radius 50px;    
+}   
+.w50{
+    min-width: 25%;
+}
+img{
+    max-width: 100%;
+}
